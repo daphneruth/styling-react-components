@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
+import styles from './CourseInput.module.css'
 import Button from '../../UI/Button/Button';
 //import './CourseInput.css';
-
+/*
 const FormControl = styled.div`
 
   margin: 0.5rem 0;
@@ -38,7 +38,7 @@ const FormControl = styled.div`
   color: red;
 }
 `;
-
+*/
 const CourseInput = props => {
   const [enteredValue, setEnteredValue] = useState('');
   const [isValid, setIsValid] = useState(true)
